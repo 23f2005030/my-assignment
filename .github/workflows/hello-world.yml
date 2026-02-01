@@ -1,0 +1,14 @@
+name: Hello World Action with Email
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: 23f2005030@ds.study.iitm.ac.in
+        run: echo "Hello, world! This is my GitHub Action."
+      - name: List files
+        run: ls -la
